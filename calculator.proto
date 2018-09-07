@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+
+message NumberRequest {
+    int32 value1 = 1;
+    int32 value2 = 2;
+}
+
+
+message NumberReply {
+    int32 value = 1;
+}
+
+
+service Add {
+    rpc AddCalculator(NumberRequest) returns(NumberReply) {}
+}
