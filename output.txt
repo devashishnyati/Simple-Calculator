@@ -1,0 +1,18 @@
+calculator_server.py Output:
+Starting server. Listening on port 50051.
+
+
+
+
+
+
+
+calculator_client.py Output:
+Client side: 20 + 10
+
+Goint to server side 
+. 
+. 
+.
+Server side: 30
+
